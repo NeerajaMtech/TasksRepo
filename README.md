@@ -11,7 +11,7 @@ Task #1: Weather API - AccionLabsProject.zip
 3) Run  php artisan migrate from the folder path 
 	After executing the above artisan command a table "weatherapidata"
 4) Below is the API to fetch weather data from https://openweathermap.org/ using the key and store data into database table "weatherapidata"
-	URL: http://localhost/weather/fetchdata
+	URL: http://{{applicationURL}}/storeWeather
 	Method: GET
 	Parameters: NA
 7) Error handling - Any exception raised while fetching the data are stored in the log file.
