@@ -24,6 +24,6 @@ Task #2 : Palindrome
 Demonstrates OOPS and Dependency Injection
 Run below line from gitbash navigating to the application folder
 1) php palindrome.php -- which displays the below output
-	#Returns whether given string is Palindrome or not 
-	#Returns the reverse string without using predefined functions
+	i)Returns whether given string is Palindrome or not 
+	ii)Returns the reverse string without using predefined functions
 
