@@ -12,10 +12,8 @@ class Palindrome {
             return '';
         }
         $strlength  = strlen($str);
-        $returnData = '';
-        for ($i = $strlength - 1; $i >= 0; $i--) {
-            $returnData .= $str{$i};
-        }
+        $returnData = $this->reverseString($str);
+        
         return ($str == $returnData) ? TRUE : FALSE;
     }
 
@@ -34,7 +32,7 @@ class Palindrome {
         for ($i = $length - 1; $i >= 0; $i--) {
             $returnData .= $str{$i};
         }
-        return "Reversed String/Integer is :: " . $returnData;
+        return $returnData;
     }
 
 }
