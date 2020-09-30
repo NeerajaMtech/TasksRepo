@@ -1,6 +1,6 @@
 # TasksRepo
 # Assignment
-# Tech Stack:
+# Technology Stack:
 1) PHP 7+, Mysql, Laravel framework
 2) Installed composer require guzzlehttp/guzzle package
 
